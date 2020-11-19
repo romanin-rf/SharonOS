@@ -23,5 +23,5 @@ def start_display(lin, cln):
 				else:
 					if wag_lines == lin:
 						work = False
-
-start_display(lines, colons)
+while True:
+	start_display(lines, colons)
