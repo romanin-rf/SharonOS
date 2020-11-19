@@ -8,7 +8,7 @@ def start_display(lin, cln):
 	wag_lines = 0
 	while work:
 		if wag_lines == 0:
-			print("####" + "SheranOS" + "#" * (cln - 14) + "###")
+			print("####" + " SheranOS " + "# {0} ".format(config.os_setting.version) + "#" * ((cln - 18) - int(len(config.os_setting.version))) + "##")
 			wag_lines += 1
 		else:
 			if (wag_lines >= 1) and (wag_lines < (lin - 1)):
